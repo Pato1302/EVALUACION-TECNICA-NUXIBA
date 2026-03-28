@@ -162,3 +162,4 @@ C:\Users\user\Desktop\Problema Nuxiba\testdevbackjr\NuxibaApi\obj\Debug\net9.0\r
 C:\Users\user\Desktop\Problema Nuxiba\testdevbackjr\NuxibaApi\obj\Debug\net9.0\NuxibaApi.pdb
 C:\Users\user\Desktop\Problema Nuxiba\testdevbackjr\NuxibaApi\obj\Debug\net9.0\NuxibaApi.genruntimeconfig.cache
 C:\Users\user\Desktop\Problema Nuxiba\testdevbackjr\NuxibaApi\obj\Debug\net9.0\ref\NuxibaApi.dll
+C:\Users\user\Desktop\Problema Nuxiba\testdevbackjr\NuxibaApi\bin\Debug\net9.0\CsvHelper.dll

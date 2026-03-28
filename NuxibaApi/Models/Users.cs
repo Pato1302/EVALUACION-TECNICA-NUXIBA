@@ -7,6 +7,7 @@ namespace NuxibaApi.Models
     public class User
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int User_id { get; set; }
 
         [Required]

@@ -31,8 +31,7 @@ namespace NuxibaApi.Migrations
                 name: "ccRIACat_Areas",
                 columns: table => new
                 {
-                    IDArea = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    IDArea = table.Column<int>(type: "int", nullable: false),
                     AreaName = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     StatusArea = table.Column<int>(type: "int", nullable: true),
                     CreateDate = table.Column<DateTime>(type: "datetime2", nullable: true)
@@ -46,8 +45,7 @@ namespace NuxibaApi.Migrations
                 name: "ccUsers",
                 columns: table => new
                 {
-                    User_id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    User_id = table.Column<int>(type: "int", nullable: false),
                     Login = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Nombres = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ApellidoPaterno = table.Column<string>(type: "nvarchar(max)", nullable: true),

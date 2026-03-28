@@ -7,6 +7,7 @@ namespace NuxibaApi.Models
     public class Area
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int IDArea { get; set; }
 
         public string? AreaName { get; set; }

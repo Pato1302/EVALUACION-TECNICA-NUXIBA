@@ -35,16 +35,16 @@ docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=YourStrong!Passw0rd'    -p 1433:14
 
 Servidor: localhost, puerto 1433 - Usuario: sa - Contraseña: YourStrong!Passw0rd
 
-# 2. Crear la base de datos con Entity Framework
+# 2. Preparar y ejecutar el proyecto
 
-Desde la carpeta del proyecto ejecutar los siguientes comandos:
+Desde la carpeta `NuxibaApi/` ejecutar:
 
 ```bash
 dotnet restore
-dotnet build
-dotnet ef database update
 dotnet run
 ```
+
+La base de datos se crea automáticamente al iniciar la aplicación, junto con los datos de los archivos CSV.
 
 # 3. Ejecutar la API
 

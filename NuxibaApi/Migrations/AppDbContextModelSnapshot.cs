@@ -25,10 +25,7 @@ namespace NuxibaApi.Migrations
             modelBuilder.Entity("NuxibaApi.Models.Area", b =>
                 {
                     b.Property<int>("IDArea")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IDArea"));
 
                     b.Property<string>("AreaName")
                         .HasColumnType("nvarchar(max)");
@@ -72,10 +69,7 @@ namespace NuxibaApi.Migrations
             modelBuilder.Entity("NuxibaApi.Models.User", b =>
                 {
                     b.Property<int>("User_id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("User_id"));
 
                     b.Property<string>("ApellidoMaterno")
                         .HasColumnType("nvarchar(max)");
