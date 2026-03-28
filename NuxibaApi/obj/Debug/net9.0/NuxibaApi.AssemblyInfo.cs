@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NuxibaApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70cb84b7548e8393ee84016b40e3cdd4a13af6ec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a87a1d662b5157a855e0773606f0b3b3cbec21f")]
 [assembly: System.Reflection.AssemblyProductAttribute("NuxibaApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NuxibaApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

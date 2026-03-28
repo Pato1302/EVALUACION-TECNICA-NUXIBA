@@ -43,6 +43,7 @@ Desde la carpeta del proyecto ejecutar los siguientes comandos:
 dotnet restore
 dotnet build
 dotnet ef database update
+dotnet run
 ```
 
 # 3. Ejecutar la API

@@ -12,8 +12,8 @@ using NuxibaApi.Data;
 namespace NuxibaApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260328050918_AddAreasTable")]
-    partial class AddAreasTable
+    [Migration("20260328072703_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -94,6 +94,9 @@ namespace NuxibaApi.Migrations
 
                     b.Property<string>("Login")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nombres")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Password")
